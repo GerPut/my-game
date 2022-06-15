@@ -1,0 +1,30 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+.bg{
+    background-color: #8CC54B;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height:60px;
+    width:100%;
+}
+
+h1{
+    font-family: 'Bangers', cursive;
+    color:#282c34;
+    margin: 0 10px; 
+    text-shadow: 1px 2px #fff;
+    letter-spacing:2px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+li{
+    padding:10px;
+    margin: 0 10px; 
+}

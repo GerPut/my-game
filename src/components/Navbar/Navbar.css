@@ -7,6 +7,9 @@
     padding:1rem;
     border-bottom:1px solid grey;
 }
+.app__navbar-logo{
+    text-shadow: 1px 1px grey;
+}
 
 .app__navbar-logo > a{
 color:#fff;
@@ -19,6 +22,8 @@ font-size: 1.4rem;
 
 .app__navbar-links{
     /* flex:1; */
+    font-family: 'Tektur', cursive;
+    font-style: italic;
     display:flex;
     justify-content:center;
     align-items: center;
@@ -35,7 +40,7 @@ font-size: 1.4rem;
 }
 
 .app__navbar-links li:hover {
-    color:aqua;
+    color:#a2facf;
 }
 
 .app__navbar-smallscreen {
@@ -57,7 +62,7 @@ font-size: 1.4rem;
 
 .app__navbar-smallscreen_overlay .overlay__close {
     font-size: 27px;
-    color: yellow;
+    color: #fff;
     cursor: pointer;
     position: absolute;
     top: 20px;
@@ -71,12 +76,15 @@ font-size: 1.4rem;
 .app__navbar-smallscreen_links li {
     margin: 2rem;
     cursor: pointer;
-    color: yellow;
+    /* color: #a2facf; */
     font-size: 1.4rem;
     text-align: center;
     font-family: 'Tektur', cursive;
     font-style: italic !important;
     font-weight: 800;
+    background:linear-gradient(-70deg, #a2facf 0%, #64acff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     
 }
 

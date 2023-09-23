@@ -55,7 +55,7 @@ font-size: 1.4rem;
     height: 100vh;
     background: #000;
     transition: .1s ease;
-
+    align-items: center;
     flex-direction: column;
     z-index: 5;
 }
@@ -76,7 +76,6 @@ font-size: 1.4rem;
 .app__navbar-smallscreen_links li {
     margin: 2rem;
     cursor: pointer;
-    /* color: #a2facf; */
     font-size: 1.4rem;
     text-align: center;
     font-family: 'Tektur', cursive;

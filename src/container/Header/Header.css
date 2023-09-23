@@ -83,8 +83,20 @@
 
 @media screen and (max-width: 450px) {
     .app__header-h1 {
+        font-size: 70px;
+        line-height: 80px;
+    }
+    .subtext{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 375px) {
+    .app__header-h1 {
         font-size: 50px;
-        line-height: 70px;
+        line-height: 60px;
+    }
+    .subtext{
+        font-size: 1rem;
     }
 }
 

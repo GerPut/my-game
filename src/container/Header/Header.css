@@ -1,7 +1,90 @@
-.gradient-text{
+.app__wrapper{
+    margin-top:100px;
+}
+
+.app__header-h1{
     background:linear-gradient(-70deg, #a2facf 0%, #64acff 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 5.5rem;
+}
+
+.subtext{
+    font-size: 1.4rem;
+    font-style: italic;
+}
+
+.header__button-box{
+    margin-top: 40px;
+}
+
+.button {
+    position: relative;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: #000;
+    font-style:italic;
+    border: 1px solid #000;
+    border-radius: 4px;
+    /* text-shadow: 0 0 15px #64acff; */
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Tektur', cursive;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    transition: 0.1s;
+    z-index: 1;
+    background:linear-gradient(-70deg, #a2facf 0%, #64acff 100%);
+  }
+  
+  .button:hover {
+    color: #000;
+    box-shadow: 0 0 0px #a2facf;
+  }
+  
+  .button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(-70deg, #a2facf 0%, #64acff 100%);
+    z-index: -1;
+    transform: scale(0);
+  }
+  
+  .button:hover::before {
+    transform: scale(1);
+    box-shadow: 0 0 10px #64acff,
+      0 0 30px #64acff,
+      0 0 60px #64acff;
+  }
+
+  @media screen and (min-width: 2000px) {
+    .app__header-h1 {
+        font-size: 180px;
+        line-height: 210px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .app__header-h1 {
+        font-size: 90px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .app__header-h1 {
+        font-size: 70px;
+        line-height: 87px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .app__header-h1 {
+        font-size: 50px;
+        line-height: 70px;
+    }
 }
 

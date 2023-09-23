@@ -8,3 +8,7 @@
 h1{
   font-style: italic !important;
 }
+
+.section__padding {
+  padding: 4rem 4rem;
+}

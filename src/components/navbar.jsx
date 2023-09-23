@@ -7,10 +7,10 @@ const Navbar = () => {
             <div className="app__navbar-logo">
                 <p>Fight Furnace</p>
                 <ul className="app__navbar-links">
-                    <li className="p__kanit"><a href="#home">HOME</a></li>
-                    <li className="p__kanit"><a href="#getstarted">GET STARTED</a></li>
-                    <li className="p__kanit"><a href="#about">ABOUT</a></li>
-                    <li className="p__kanit"><a href="#contact">CONTACT</a></li>
+                    <li className="p__linktext"><a href="#home">HOME</a></li>
+                    <li className="p__linktext"><a href="#getstarted">GET STARTED</a></li>
+                    <li className="p__linktext"><a href="#about">ABOUT</a></li>
+                    <li className="p__linktext"><a href="#contact">CONTACT</a></li>
                 </ul>
             </div>
         </nav>

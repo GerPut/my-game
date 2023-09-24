@@ -6,7 +6,8 @@ const Footer = () => {
         <div>
             <footer>
                 <div className="row primary">
-                    <div className="column about">
+
+                    {/* <div className="column about">
                         <h3>FIGHT FURNACE</h3>
                         <p>
 
@@ -18,9 +19,9 @@ const Footer = () => {
                             <i className="fa-brands fa-youtube-square"></i>
                             <i className="fa-brands fa-whatsapp-square"></i>
                         </div>
-                    </div>
+                    </div> */}
                     <div className="column links">
-                        <h3>Some Links</h3>
+                        <h3>Quick Links</h3>
 
                         <ul className="footer-links">
                             <li>
@@ -38,9 +39,8 @@ const Footer = () => {
                         </ul>
                     </div>
 
-
                     <div className="column links">
-                        <h3>Some Links</h3>
+                        <h3>Resources</h3>
                         <ul className="footer-links">
                             <li>
                                 <a href="#faq">F.A.Q</a>
@@ -56,7 +56,7 @@ const Footer = () => {
                             </li>
                         </ul>
                     </div>
-
+                    <div></div>
                     <div className="column subscribe">
                         <h3>Newsletter</h3>
                         <div>

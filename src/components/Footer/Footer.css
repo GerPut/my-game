@@ -1,10 +1,7 @@
 footer {
     background-color: #121315;
     color: #a7a7a7;
-    font-size: 16px;
-    position: fixed;
-    left: 0;
-    bottom: 0;
+    font-size: 1rem;
     width:100%;
   }
   footer * {

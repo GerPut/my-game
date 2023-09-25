@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <>
             <div className="app__header app__wrapper section__padding" id="home">
-                <h1 className='app__header-h1'>YOUR OWN ODDS</h1>
+                <h1 className='app__header-h1'>OWN ODDS</h1>
                 <h3 className="app__subtext">with the best MMA calculator</h3>
                 <div className="header__button-box">
                     <a className="button" href="#" >
@@ -13,7 +13,7 @@ const Header = () => {
                         <span></span>
                         <span></span>
                         <span></span>
-                        TRY NOW
+                        Try Now
                     </a>
                 </div>
             </div>

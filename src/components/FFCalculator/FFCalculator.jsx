@@ -1,41 +1,30 @@
 import React from 'react'
+import Age from '../Age'
+import Experience from '../Experience'
+import WinLose from '../WinLose'
+import Streak from '../Streak'
+import Reach from '../Reach'
 
 const FFCalculator = () => {
     return (
         <>
-            <h3>FIGHT FURNACE</h3>
+            <h3 className="text-center app__navbar-logo ">FIGHT FURNACE</h3>
             <div className="col-12">
-                <div className=" d-flex row">
-
-                    <div class="col-md-4">
-                        <label for="inputEmail4" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="inputEmail4" />
+                <div className="d-flex row justify-content-center align-items-center">
+                    <div class="col-md-3">
+                        <label for="nameA" class="form-label">NAME A</label>
+                        <input type="text" class="form-control" id="nameA" />
                     </div>
-                    <div class="col-md-4">
-                        <label for="inputPassword4" class="form-label">Password</label>
-                        <input type="password" class="form-control" id="inputPassword4" />
+                    <div class="col-md-3">
+                        <label for="NameB" class="form-label">NAME B</label>
+                        <input type="tex" class="form-control" id="nameB" />
                     </div>
                 </div>
-                <div className="d-flex justify-content-center align-items-center">
-
-                    <div class="col-md-4">
-                        <label for="inputState" class="form-label">State</label>
-                        <select id="inputState" class="form-select">
-                            <option selected>Choose...</option>
-                            <option>...</option>
-                        </select>
-                    </div>
-                    <div>space</div>
-
-                    <div class="col-md-4">
-                        <label for="inputState" class="form-label">State</label>
-                        <select id="inputState" class="form-select">
-                            <option selected>Choose...</option>
-                            <option>...</option>
-                        </select>
-                    </div>
-
-                </div>
+                <Age />
+                <Experience />
+                <WinLose />
+                <Streak />
+                <Reach />
             </div>
 
 

@@ -62,7 +62,7 @@ footer {
   
   }
   .footer-links li a:hover {
-    color: #2a8ded;
+    color: #a2facf;
   }
   .about p {
     text-align: justify;
@@ -76,10 +76,12 @@ footer {
     width: 100%;
     border-radius: 5px;
     margin-bottom: 5px;
+  
   }
   button {
     background:linear-gradient(-70deg, #a2facf 0%, #64acff 100%);
     color: #000;
+    cursor:pointer;
   }
   div.social {
     display: flex;

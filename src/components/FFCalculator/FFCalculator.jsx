@@ -4,6 +4,13 @@ import Experience from '../Experience'
 import WinLose from '../WinLose'
 import Streak from '../Streak'
 import Reach from '../Reach'
+import LastActive from '../LastActive'
+import StrikeAcc from '../StrikeAcc'
+import StrikeDef from '../StrikeDef'
+import TakeDownAcc from '../TakeDownAcc'
+import TakeDownDef from '../TakeDownDef'
+import PreviousOppWL from '../PreviousOppWL'
+import Other from '../Other'
 
 const FFCalculator = () => {
     return (
@@ -25,6 +32,14 @@ const FFCalculator = () => {
                 <WinLose />
                 <Streak />
                 <Reach />
+                <LastActive />
+                <StrikeAcc />
+                <StrikeDef />
+                <TakeDownAcc />
+                <TakeDownDef />
+                <PreviousOppWL />
+                <Other />
+
             </div>
 
 
